@@ -156,3 +156,21 @@ header {
     color: white;
     font-size: 15px;
 }
+
+.timeline li h4 span {
+    font-weight: 600;
+    color: #ccc;
+}
+
+.timeline li:before {
+    content: '';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid black;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
