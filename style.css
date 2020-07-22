@@ -145,7 +145,7 @@ header {
 .sticky-icons {
     top: 50%;
     transform: translateY(-50%);
-    position: sticky;
+    position: fixed;
     z-index: 1;
     width: 80px;
 }
