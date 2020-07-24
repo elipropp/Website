@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ehpropp/Personal-Website.git"
+  },
+  "author": "Eli Propp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ehpropp/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/Ehpropp/Personal-Website#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
